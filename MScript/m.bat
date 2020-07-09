@@ -31,7 +31,7 @@ exit
 goto end
 
 :vps
-ssh -p 28994 root@45.78.24.84
+ssh -o "ServerAliveInterval 60" -o "ServerAliveCountMax 120" -p 28994 root@45.78.24.84
 goto end
 
 :fvps
