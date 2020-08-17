@@ -26,7 +26,7 @@ set /p input= 输入相对应的代码选择Git路径：
  if "%input%"=="2" goto route2
  if "%input%"=="3" goto route3
  if "%input%"=="4" goto route4
-if "%input%"=="5" goto route5
+ if "%input%"=="5" goto route5
  if "%input%"=="P" "d:\Program Files\Git\bin\wish.exe" "d:\Program Files\Git\libexec\git-core\git-gui"
  if "%input%"=="p" "d:\Program Files\Git\bin\wish.exe" "d:\Program Files\Git\libexec\git-core\git-gui"
  if "%input%"=="Q" exit
